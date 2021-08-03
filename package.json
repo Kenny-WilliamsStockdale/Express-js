@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/Kenny-WilliamsStockdale/Express-js/issues"
   },
-  "homepage": "https://github.com/Kenny-WilliamsStockdale/Express-js#readme"
+  "homepage": "https://github.com/Kenny-WilliamsStockdale/Express-js#readme",
+  "dependencies": {
+    "express-generator": "^4.16.1",
+    "nodemon": "^2.0.12"
+  }
 }

@@ -16,3 +16,8 @@ app.get('/about', (req, res) => {
     res.send('<h1>'+user+'</h1>');
 })
 
+app.get('/users/:name', (req, res) => {
+    let user = req.params.name
+    res.send('<h1>'+user+'</h1>');
+})
+
